@@ -105,6 +105,15 @@
                                     <rect key="frame" x="255" y="121" width="97" height="91"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAs-2A-fla">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="153" width="231" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="GDq-IN-9Xx"/>
                                 <exclude reference="bp3-hl-FzG"/>
                                 <exclude reference="cmw-G0-1B2"/>
+                                <exclude reference="DAs-2A-fla"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="GDq-IN-9Xx"/>
                                 <include reference="bp3-hl-FzG"/>
                                 <include reference="cmw-G0-1B2"/>
+                                <include reference="DAs-2A-fla"/>
                             </mask>
                         </variation>
                     </view>
@@ -131,6 +142,7 @@
                         <outlet property="enterNameField" destination="OSI-xZ-W4D" id="qzV-hS-CxM"/>
                         <outlet property="mailButton" destination="bp3-hl-FzG" id="kb4-Ae-C26"/>
                         <outlet property="messageLabel" destination="GDq-IN-9Xx" id="g5X-1o-Rcz"/>
+                        <outlet property="nameLabel" destination="DAs-2A-fla" id="Tus-fp-aMH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WcL-re-j0B" userLabel="First Responder" sceneMemberID="firstResponder"/>
